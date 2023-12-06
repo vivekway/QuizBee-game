@@ -1,0 +1,76 @@
+body {
+   
+    background-image: url("homepic.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+  }
+  
+.button{
+  background: rgba(0, 0, 0, .1);
+  backdrop-filter:blur(15px);
+    margin-top: 400px;
+    padding: 25px;
+    width:120px;
+    height: 120px;
+    justify-content: center;
+    border-radius: 100%;
+    border: 10px solid  rgb(32, 223, 236);
+    
+}
+
+.buttons{
+  margin-left: 460px;
+  display: flex;
+  gap: 25px;
+  
+}
+.button a{
+  text-align: center;
+  font-size: 1.8rem;
+  color: rgb((33, 18, 255) 0, 216);
+  font-weight: 500;
+  margin-right: 10.5rem;
+  display:inline-flex;
+  margin-left: 25px;
+  margin-top: 15px;
+  font-family: 'Ephesis', cursive; 
+  font-weight: bolder;
+
+  
+}
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.3rem 10%;
+  background: rgba(0, 0, 0, .1);
+  backdrop-filter:blur(3px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  
+}
+.logo{
+  font-size: 2rem;
+  color:aliceblue;
+  text-decoration: none;
+  font-weight: 700;
+}
+.navbar a{
+  font-size: 1.15rem;
+  color: #af5353;
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 10.5rem;
+  display:inline-flex;
+
+}
+.logo{
+  width:60px;
+    height: 60px;
+    border-radius: 100%;
+}
